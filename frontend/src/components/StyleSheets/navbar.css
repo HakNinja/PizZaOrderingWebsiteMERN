@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;1,100&family=Rubik+Moonrocks&family=Titan+One&family=Ubuntu:wght@300;700&display=swap');
+
+.navbarcontainermain{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 4rem;
+    height: 6rem;
+    z-index: 1;
+}
+.navbardropdownhead{
+    color: chocolate;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: "ubuntu", sans-serif;
+}
+#basic-nav-dropdown{
+    color: rgb(195, 3, 3);
+}
+#basic-nav-dropdown:hover{
+    color: rgb(251, 17, 17);
+}
+.navbardropdownData{
+    color: rgb(27, 25, 25);
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: "ubuntu", sans-serif;
+}
+#signInblock:hover{
+color: rgb(5, 73, 245);
+font-size: 1.25rem;
+}
+#signUpblock:hover{
+color: rgb(245, 5, 41);
+font-size: 1.25rem;
+}
+#cartblock:hover{
+color: rgb(3, 137, 55);
+font-size: 1.25rem;
+}
+
+.searchbarWrapper{
+    background-color: rgb(247, 78, 78);
+    border-radius: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.form-search-select{
+    width: 700px;
+    padding: .6rem;
+    margin: 0px;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 1.2rem;
+    outline: 2px solid rgb(240, 99, 99);
+    border: none;
+}
+.form-search-select:focus{
+    box-shadow:none;
+}
+.form-select{
+    width: 180px;
+    margin: 0px;
+    border-radius: 0px 10px 10px 0px;   
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.form-select:focus{
+    outline: 2px solid rgb(240, 99, 99);
+}
+.selectedOption{
+    font-weight:500;
+    background-color: rgb(249, 217, 217);
+}
+
+.SearchButton{
+    background-color:rgb(255, 81, 81);
+    box-shadow: 0px 0px 6px rgb(227, 0, 0);
+    border: 0px solid rgb(227, 0, 0);
+    font-size: 1.4rem;
+    font-family: "ubuntu","roboto",sans-serif;
+    font-weight: 500;
+border-radius: 50px;
+width: 150px;
+}
+.SearchButton:hover{
+    background-color:rgb(255, 103, 103);
+    border: 0px solid rgb(227, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 700;
+    box-shadow: 0px 0px 6px rgb(227, 0, 0);
+}

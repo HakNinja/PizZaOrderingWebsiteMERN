@@ -1,0 +1,80 @@
+.mainContainerofPizzas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    border-radius: .5rem;
+    margin: .5rem;
+    padding: .5rem;
+}
+.pizzaDisplaycontainer{
+    font-family: "ubuntu","roboto",sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 1.1rem;
+}
+
+.pricesize{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.pizzaDisplaycontainer1{
+    font-family: "ubuntu","roboto",sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+}
+
+.selectdropdown{
+    padding: .2rem;
+    width: 110px;
+    text-transform: capitalize;
+    font-weight: 500;
+    background-color: beige;
+    border: 1px solid beige;
+    border-radius: 4px;
+    text-align: justify;
+}
+
+.addtoCartBtn{
+    background-color: rgb(255, 244, 194);
+    color: rgb(250, 52, 52);
+    display: block;
+    justify-items: center;  
+    align-items: center;
+    font-size: 1.3rem;
+    width: 350px;
+    font-family: "ubuntu",sans-serif;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px  5px rgb(255, 255, 138) ;
+
+}
+.addtoCartBtn:hover{
+    background-color: rgb(224, 255, 194);
+    color: rgb(7, 103, 47);
+    display: block;
+    justify-items: center;  
+    align-items: center;
+    font-size: 1.35rem;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px  5px rgb(76, 128, 2) ;
+
+}
+#modalBoxContainer{
+    border-radius: 1rem;
+    box-shadow: 0px 0px 30px rgb(40, 39, 39);
+    border: none;
+    outline: none;  
+}
+.modalBoxheading{
+    font-size: 2.2rem;
+    font-family: "ubuntu",sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 5rem;
+
+}
+

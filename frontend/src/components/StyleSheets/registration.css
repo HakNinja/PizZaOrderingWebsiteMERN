@@ -1,0 +1,128 @@
+
+.registerContainerbox{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+}
+.registerContainerboxform{
+    background-color: #fff;
+    width: 40rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 20px rgb(139, 139, 139);
+    display: flex;
+   justify-content:center ;
+}
+.SignUpheading{
+    color: rgb(142, 0, 26);
+    text-align: center;
+    font-family: "ubuntu",sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.SignUpdec{
+    color: rgb(74, 74, 74);
+    text-align: center;
+    font-family: "ubuntu",sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.formtextboxControl{
+    width: 450px;
+    margin: .7rem;
+    margin-left: 0.1rem;
+    font-size: 1rem;
+    padding: .6rem;
+    border-radius: 50px ;
+    padding-left: 4.3rem;
+    border: 1px solid  rgb(254, 53, 53) ;
+    font-family: "roboto",sans-serif;
+    box-shadow: 0px 0px 5px rgb(255, 192, 192);
+
+}
+.formtextboxControl:focus{
+  box-shadow: 0px 0px 10px rgb(255, 104, 104); 
+outline: none;
+border: 1px solid  rgb(254, 53, 53) ;
+}
+.formtextboxControl::placeholder{
+    color: rgb(143, 143, 143);
+    font-family: "roboto",sans-serif;
+}
+.formlabel{
+    display: flex;
+}
+
+
+.formlabel >p{
+    position: absolute;
+    box-sizing: border-box;
+display:flex;
+justify-items: center;
+align-items: center;
+justify-content: center;
+margin: .7rem;
+margin-left: 0rem;
+border-radius: 50px 0px 0px 50px;
+background-color: rgb(254, 53, 53);
+width: 60px;
+height: 45px;
+color: white;
+font-size: 1.6rem;
+
+}
+
+.description-text{
+margin-top: 0rem;
+margin-top: -1rem;
+padding-left: 4rem;
+font-size: .8rem;
+font-family: "roboto",sans-serif;
+font-weight: 500;
+margin-bottom: .5rem;
+}
+.rembermecheckBox{
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.9rem;
+    margin-top: -.8rem;
+    float: right;
+    margin-right: 1.2rem;
+    font-family: "roboto",sans-serif;
+    outline: none;
+}
+.createaccountBtn{
+    background-color: rgb(255, 67, 67);
+    width: 97%;
+    border-radius: 50px;
+    margin: 1rem;
+    margin-left: .1rem;
+    border: 1px solid red;
+    font-size: 1.5rem;
+    font-family: "ubuntu",sans-serif;
+}
+.createaccountBtn:hover{
+    background-color: rgb(254, 254, 254);
+    color: red;
+    border: 2px solid red;
+font-weight: bold;
+outline: none;
+box-shadow: 0px 0px 10px rgb(251, 113, 113);
+}
+.alreadyuser{
+    margin-top: -1.8rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     justify-content: center;
+     font-family: "ubuntu",sans-serif;
+
+}
+.signin{
+    margin-top: 1rem;
+margin-left: -.5rem;
+color: rgb(251, 87, 87);
+}

@@ -1,0 +1,33 @@
+.navbarcontainer{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    height: 4rem;
+    z-index: 1;
+}
+
+.ms-auto{
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+
+}
+.navbarDivContainer{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 1rem;
+  
+}
+.linksInNavbar{
+    color: white;
+    font-family:"Ubuntu", "roboto",sans-serif;
+    
+}
+.linksInNavbar:hover{
+    color: rgb(203, 0, 0);
+
+}
